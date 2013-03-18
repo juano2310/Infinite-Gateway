@@ -13,7 +13,7 @@ options = sys.argv[1:]
 if not options:
 	print 'The file name is empty'
 else:
-	audiofile= '%s%s' % ('mpg321 /var/www/sound/', options[0])
+	audiofile= '%s%s' % ('mpg321 /var/infinitegateway/actions/ig_audio/sound/', options[0])
 	os.system(audiofile)
 
        
